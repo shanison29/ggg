@@ -867,7 +867,7 @@ function OrionLib:MakeWindow(WindowConfig)
 				})
 
 				local ButtonFrame = AddThemeObject(SetChildren(SetProps(MakeElement("RoundFrame", Color3.fromRGB(255, 255, 255), 0, 5), {
-					Size = UDim2.new(1, 5, 0, 33),
+					Size = UDim2.new(1, 1, 1, 33),
 					Parent = ItemParent
 				}), {
 					AddThemeObject(SetProps(MakeElement("Label", ButtonConfig.Name, 15), {
